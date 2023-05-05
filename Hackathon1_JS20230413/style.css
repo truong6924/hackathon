@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.content{
+    background-image: url(/beach3.jpg);
+    width: 700px;
+    height: 300px;
+    position: relative;
+}
+.content h3{
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(230, 206, 19, 0.5);
+    left: 30px;
+    padding-left: 10px;
+}
+
+.concat{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.concat img{
+    border-top: 5px solid yellow;
+}
+
+.select{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.select img{
+    border-top: 5px solid yellow;
+}
